@@ -19,13 +19,13 @@ The input variables used are:
 Although the specific company applying will likely impact whether a grant is successful, we did not include the Name of the company applying for the funding as this would likely result in overfitting of the model, and could leave Alphabet Soup open to acusations of bias. 
 
 ## Compiling, Training, and Evaluating the Model
-Initially we used 2 hidden layers and an output layer, with 8 neurons each using a Rectified Linear Unit (ReLu) activation function. We chose this as a sort of standard setup, with ReLu being a very popular activation function, and not wanting to overload the model with nuance but still wanting some depth of field. We attempted optimization by trialilng different activation functions, different numbers of neurons, different numbers of layers, as well as reducing the input size. None of these methods were effective in raising the accuracy of the model from the initial setup. 
+Initially we used 2 hidden layers and an output layer, with 8 neurons each using a Rectified Linear Unit (ReLu) activation function. We chose this as a sort of standard setup, with ReLu being a very popular activation function, and not wanting to overload the model with nuance but still wanting some depth of field. We attempted optimization by trialling different activation functions, different numbers of neurons, different numbers of layers, as well as reducing the input size. None of these methods were effective in raising the accuracy of the model from the initial setup. 
 
 ## Summary
 
-This model was very difficult to optimise, likely due to the noisiness of the data. It is very difficult to identify outliers within this dataset, and the data does not lend itself to visualization to give any insight on how to structure the model. I would reccomend looking for further input data and spending some time running various visualisatin and statistics for the dataset, to look for further insights on a good place to start the model from. it could also be useful to split the data into smaller sets by Applicatin Type or Classification and run models within those sets. 
+This model was very difficult to optimise, likely due to the noisiness of the data. It is very difficult to identify outliers within this dataset, and the data does not lend itself to visualization to give any insight on how to structure the model. I would reccomend looking for further input data and spending some time running various visualisation and statistics for the dataset, to look for further insights on a good place to start the model from. it could also be useful to split the data into smaller sets by Application Type or Classification and run models within those sets. 
 
-Something about clustering. 
+It could instead be beneficial to conduct supervised cluster analysis on the data using a simpler Machine Learning algorithm, such as a logistic regression, as the majority of this data is discrete not continuous.  
 
 ## Contributing
 Evangeline Allan
