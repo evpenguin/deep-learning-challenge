@@ -1,4 +1,4 @@
-# deep-learning-challenge
+# Deep Learning - Challenge 21
 
 ## Overview of the analysis: 
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. We use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup by using Machine Learning and Neural Networks to create a Deep Learning algorithm. 
@@ -24,3 +24,8 @@ Initially we used 2 hidden layers and an output layer, with 8 neurons each using
 ## Summary
 
 This model was very difficult to optimise, likely due to the noisiness of the data. It is very difficult to identify outliers within this dataset, and the data does not lend itself to visualization to give any insight on how to structure the model. I would reccomend looking for further input data and spending some time running various visualisatin and statistics for the dataset, to look for further insights on a good place to start the model from. it could also be useful to split the data into smaller sets by Applicatin Type or Classification and run models within those sets. 
+
+Something about clustering. 
+
+## Contributing
+Evangeline Allan
